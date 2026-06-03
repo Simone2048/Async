@@ -1,2 +1,4 @@
-# Snakey-Story
-A story version of the iconic game snake made for a custom esp-32 based console.
+# Async
+A custom esp-32 based console to play multiple fun games.
+
+## Hardware

@@ -1,7 +1,7 @@
 # Async
 A custom esp-32 based reconfigurable console to play multiple fun games.
 
-#Hardware
+## Hardware
 This is the hardware used for the basic controller console configuration:
 - Esp-32 Wroom (Az-Delivery)
 - 0.96" Oled display

@@ -19,3 +19,5 @@ Than flash micropython by using the command:
 ```
 python -m esptool --chip esp32 --port YOUR_COM_PORT --baud 460800 write-flash -z 0x1000 micropython\ESP32_GENERIC-v1.28.0.bin
 ```
+Then run the copy-scripts.bat file and you're all set.
+Reset your board and you are ready to play.

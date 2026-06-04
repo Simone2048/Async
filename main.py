@@ -36,14 +36,31 @@ def read_btns():
     )
 
 def main():
-    canvas = display.Canvas(oled)
+    canvas = display.Canvas(oled,5)
+    playing_pong=False
     while True:
         up, down, left, right, action = read_btns()
+        
+        if action:
+            canvas.text("Starting Pong",0,10)
+            playing_pong=True
+            
+        if playing_pong:
+            pong.run(canvas,read_btns())
+            time.sleep_ms(2)
+        else:
+            canvas.text("Press Action To Play Pong",0,10)
+            canvas.show()
+            time.sleep_ms(50)
+        """ 
+        #Test Code(Remove When Shipped)
+        array = canvas.import_bit_map('sprites/test_bitmap.json')
         canvas.clear()
         if action:
-            canvas.text("Action Pressed!!!" ,0,0)
+            canvas.text("Action Pressed!!! ", 0, 0)
+            canvas.draw_bit_map(array,0,20)
         canvas.show()
-        time.sleep_ms(50)
+        """
 
 
 if __name__ == "__main__":

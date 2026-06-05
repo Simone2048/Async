@@ -1,5 +1,6 @@
 # Async
 A custom esp-32 based reconfigurable console to play multiple fun games.
+https://github.com/Simone2048/Async/blob/78a8a7d3b7f829bab3eee6961448f61c30fdf5e1/Images/IMG_9364.jpg
 
 ## Hardware
 This is the hardware used for the basic controller console configuration:

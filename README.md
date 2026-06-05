@@ -1,6 +1,6 @@
 # Async
 A custom esp-32 based reconfigurable console to play multiple fun games.
-![alt text]([https://stasis.hackclub-assets.com/images/1780676735985-mvcyu1.jpg](https://github.com/Simone2048/Async/blob/78a8a7d3b7f829bab3eee6961448f61c30fdf5e1/Images/IMG_9364.jpg))
+![Console Circuit](./Images/circuit.jpg)
 
 
 ## Hardware

@@ -1,6 +1,7 @@
 # Async
 A custom esp-32 based reconfigurable console to play multiple fun games.
 ![Console Circuit](./Images/Console%20Circuit.jpg)
+<img src="./Images/Console%20Circuit.jpg" width="500" alt="Console Circuit">
 
 
 ## Hardware
